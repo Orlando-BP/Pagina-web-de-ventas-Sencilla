@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.titulos{
+    text-align: center;
+}
+body
+{
+ background-color: rgb(195, 251, 223);
+}
+.wrapper {
+    min-height: calc(100% - 150px);
+  }
+
+.PiePagina
+{
+    background-color: rgb(54, 253, 157);
+    height: 40px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border: 1px;
+    border-style:solid;
+}
+.Menu{
+    width: 100%;
+    height: 50px;
+    display: table;
+}
+.BarraMenu{
+    display: table-row;
+    
+}
+.Fila{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: table-cell;
+    width: 20%;
+    border: 1px;
+    border-style:solid;
+    /*  height: 50px;*/
+    background-color: rgb(54, 253, 157);
+}
+.FotoBanner{
+height: 200px;
+width: 100%;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    }
+.ContenedorProductos{
+    margin: auto;
+    width: 100%;
+    height: auto;
+    background-color: rgb(132, 149, 246);
+    padding: 5%;
+    
+}
+.producto{
+    width: 20%;
+    height: 30%;
+    background-color: rgb(151, 249, 129);
+    display: inline-block;
+    text-align: center;
+    margin: 5%;
+}
+.ImagenProducto{
+    height: 80px;
+    width: 80px;
+}
+.cantidad{
+    width: 10%;
+}
+.cantidad2{
+    width: 5%;
+}
+.inputcontacto{
+    width: 100%;
+}
+.error
+    {
+        color:red;
+        border: 0px;
+        border-style:none;
+    }
+.Detalle{
+    width: 100%;
+    height: auto;
+    display: table;
+    background-color: rgb(97, 97, 230);
+
+}
+.Contactocontainer{
+    width: 50%;
+    height: auto;
+    display: table;
+    background-color: rgb(97, 97, 230);
+
+}
+.Renglon{
+    display: table-row;
+    text-align: right;
+}
+.DatoTitulo{
+    display: table-cell;
+    width: 20%;
+    border: 1px;
+    border-style:solid;
+    background-color: rgb(145, 221, 246);
+    text-align: center;
+}
+.Dato{
+    display: table-cell;
+    width: 50%;
+    border: 1px;
+    border-style:solid;
+    background-color: rgb(206, 239, 250);
+    text-align: center;
+}
+.columnas{
+    display: table-cell;
+    width: 20%;
+    border: 1px;
+    border-style:solid;
+    background-color: rgb(206, 239, 250);
+    text-align: center;
+}
+.FotoProducto{
+    width: 10%;
+    height: auto;
+}
+.DetallePedido{
+    width: 70%;
+    height: auto;
+    display: table;
+    background-color: rgb(97, 97, 230);
+    text-align: right;
+}
